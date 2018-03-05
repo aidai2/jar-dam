@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84553138204D1C0100E30007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84553137204D1C0100E30007 /* AppDelegate.swift */; };
+		8455313A204D1C0100E30007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84553139204D1C0100E30007 /* ViewController.swift */; };
+		8455313D204D1C0100E30007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455313B204D1C0100E30007 /* Main.storyboard */; };
+		8455313F204D1C0200E30007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8455313E204D1C0200E30007 /* Assets.xcassets */; };
+		84553142204D1C0200E30007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84553140204D1C0200E30007 /* LaunchScreen.storyboard */; };
+		8455314D204D1C0200E30007 /* jardamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455314C204D1C0200E30007 /* jardamTests.swift */; };
+		84553158204D1C0200E30007 /* jardamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84553157204D1C0200E30007 /* jardamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84553149204D1C0200E30007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8455312C204D1C0000E30007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84553133204D1C0100E30007;
+			remoteInfo = jardam;
+		};
+		84553154204D1C0200E30007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8455312C204D1C0000E30007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84553133204D1C0100E30007;
+			remoteInfo = jardam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84553134204D1C0100E30007 /* jardam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jardam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84553137204D1C0100E30007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84553139204D1C0100E30007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8455313C204D1C0100E30007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8455313E204D1C0200E30007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84553141204D1C0200E30007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84553143204D1C0200E30007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84553148204D1C0200E30007 /* jardamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jardamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8455314C204D1C0200E30007 /* jardamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jardamTests.swift; sourceTree = "<group>"; };
+		8455314E204D1C0200E30007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84553153204D1C0200E30007 /* jardamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jardamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84553157204D1C0200E30007 /* jardamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jardamUITests.swift; sourceTree = "<group>"; };
+		84553159204D1C0300E30007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84553131204D1C0100E30007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84553145204D1C0200E30007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84553150204D1C0200E30007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8455312B204D1C0000E30007 = {
+			isa = PBXGroup;
+			children = (
+				84553136204D1C0100E30007 /* jardam */,
+				8455314B204D1C0200E30007 /* jardamTests */,
+				84553156204D1C0200E30007 /* jardamUITests */,
+				84553135204D1C0100E30007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84553135204D1C0100E30007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84553134204D1C0100E30007 /* jardam.app */,
+				84553148204D1C0200E30007 /* jardamTests.xctest */,
+				84553153204D1C0200E30007 /* jardamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84553136204D1C0100E30007 /* jardam */ = {
+			isa = PBXGroup;
+			children = (
+				84553137204D1C0100E30007 /* AppDelegate.swift */,
+				84553139204D1C0100E30007 /* ViewController.swift */,
+				8455313B204D1C0100E30007 /* Main.storyboard */,
+				8455313E204D1C0200E30007 /* Assets.xcassets */,
+				84553140204D1C0200E30007 /* LaunchScreen.storyboard */,
+				84553143204D1C0200E30007 /* Info.plist */,
+			);
+			path = jardam;
+			sourceTree = "<group>";
+		};
+		8455314B204D1C0200E30007 /* jardamTests */ = {
+			isa = PBXGroup;
+			children = (
+				8455314C204D1C0200E30007 /* jardamTests.swift */,
+				8455314E204D1C0200E30007 /* Info.plist */,
+			);
+			path = jardamTests;
+			sourceTree = "<group>";
+		};
+		84553156204D1C0200E30007 /* jardamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84553157204D1C0200E30007 /* jardamUITests.swift */,
+				84553159204D1C0300E30007 /* Info.plist */,
+			);
+			path = jardamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84553133204D1C0100E30007 /* jardam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8455315C204D1C0300E30007 /* Build configuration list for PBXNativeTarget "jardam" */;
+			buildPhases = (
+				84553130204D1C0100E30007 /* Sources */,
+				84553131204D1C0100E30007 /* Frameworks */,
+				84553132204D1C0100E30007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jardam;
+			productName = jardam;
+			productReference = 84553134204D1C0100E30007 /* jardam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84553147204D1C0200E30007 /* jardamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8455315F204D1C0300E30007 /* Build configuration list for PBXNativeTarget "jardamTests" */;
+			buildPhases = (
+				84553144204D1C0200E30007 /* Sources */,
+				84553145204D1C0200E30007 /* Frameworks */,
+				84553146204D1C0200E30007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8455314A204D1C0200E30007 /* PBXTargetDependency */,
+			);
+			name = jardamTests;
+			productName = jardamTests;
+			productReference = 84553148204D1C0200E30007 /* jardamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84553152204D1C0200E30007 /* jardamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84553162204D1C0300E30007 /* Build configuration list for PBXNativeTarget "jardamUITests" */;
+			buildPhases = (
+				8455314F204D1C0200E30007 /* Sources */,
+				84553150204D1C0200E30007 /* Frameworks */,
+				84553151204D1C0200E30007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84553155204D1C0200E30007 /* PBXTargetDependency */,
+			);
+			name = jardamUITests;
+			productName = jardamUITests;
+			productReference = 84553153204D1C0200E30007 /* jardamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8455312C204D1C0000E30007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ITLabAdmin;
+				TargetAttributes = {
+					84553133204D1C0100E30007 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84553147204D1C0200E30007 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84553133204D1C0100E30007;
+					};
+					84553152204D1C0200E30007 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84553133204D1C0100E30007;
+					};
+				};
+			};
+			buildConfigurationList = 8455312F204D1C0000E30007 /* Build configuration list for PBXProject "jardam" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8455312B204D1C0000E30007;
+			productRefGroup = 84553135204D1C0100E30007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84553133204D1C0100E30007 /* jardam */,
+				84553147204D1C0200E30007 /* jardamTests */,
+				84553152204D1C0200E30007 /* jardamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84553132204D1C0100E30007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84553142204D1C0200E30007 /* LaunchScreen.storyboard in Resources */,
+				8455313F204D1C0200E30007 /* Assets.xcassets in Resources */,
+				8455313D204D1C0100E30007 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84553146204D1C0200E30007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84553151204D1C0200E30007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84553130204D1C0100E30007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455313A204D1C0100E30007 /* ViewController.swift in Sources */,
+				84553138204D1C0100E30007 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84553144204D1C0200E30007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8455314D204D1C0200E30007 /* jardamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455314F204D1C0200E30007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84553158204D1C0200E30007 /* jardamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8455314A204D1C0200E30007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84553133204D1C0100E30007 /* jardam */;
+			targetProxy = 84553149204D1C0200E30007 /* PBXContainerItemProxy */;
+		};
+		84553155204D1C0200E30007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84553133204D1C0100E30007 /* jardam */;
+			targetProxy = 84553154204D1C0200E30007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8455313B204D1C0100E30007 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8455313C204D1C0100E30007 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84553140204D1C0200E30007 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84553141204D1C0200E30007 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8455315A204D1C0300E30007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8455315B204D1C0300E30007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8455315D204D1C0300E30007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jardam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aidai.jardam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8455315E204D1C0300E30007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jardam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aidai.jardam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84553160204D1C0300E30007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jardamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aidai.jardamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jardam.app/jardam";
+			};
+			name = Debug;
+		};
+		84553161204D1C0300E30007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jardamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aidai.jardamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jardam.app/jardam";
+			};
+			name = Release;
+		};
+		84553163204D1C0300E30007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jardamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aidai.jardamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jardam;
+			};
+			name = Debug;
+		};
+		84553164204D1C0300E30007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = jardamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aidai.jardamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jardam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8455312F204D1C0000E30007 /* Build configuration list for PBXProject "jardam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455315A204D1C0300E30007 /* Debug */,
+				8455315B204D1C0300E30007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8455315C204D1C0300E30007 /* Build configuration list for PBXNativeTarget "jardam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455315D204D1C0300E30007 /* Debug */,
+				8455315E204D1C0300E30007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8455315F204D1C0300E30007 /* Build configuration list for PBXNativeTarget "jardamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84553160204D1C0300E30007 /* Debug */,
+				84553161204D1C0300E30007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84553162204D1C0300E30007 /* Build configuration list for PBXNativeTarget "jardamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84553163204D1C0300E30007 /* Debug */,
+				84553164204D1C0300E30007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8455312C204D1C0000E30007 /* Project object */;
+}
